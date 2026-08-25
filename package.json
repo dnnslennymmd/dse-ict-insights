@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "dev": "npm run dev -w @dse/web",
-    "build": "npm run build -w @dse/shared && npm run build -w @dse/ict-engine && npm run build -w @dse/dse-data && npm run build -w @dse/web",
+    "build": "npm run build -w @dse/web",
+    "build:packages": "npm run build -w @dse/shared && npm run build -w @dse/ict-engine && npm run build -w @dse/dse-data",
     "test": "npm run test -w @dse/ict-engine",
     "lint": "npm run lint -w @dse/web",
     "db:push": "npm run db:push -w @dse/web",
